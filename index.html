@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="img/icon.png">
+</head>
+    <body>
+        <p>By CyberRampage &copy;</p>
+        <div class="container schattenMitFarbverlauf">
+            <div class="Aufgaben-App">
+                <img src="img/icon.png" alt="Bild mit Stift">
+                <h2>To Do</h2>
+                <div class="row">
+                    <input type="text" id="input-box" placeholder="New Task">
+                    <button id="btn" onclick="neueAufgabe()" class="mdl-button mdl-js-button mdl-button--fab"> <!--Maybe entfernen und Button selbst machen, oder andere Class-->
+                    <i class="material-icon">+</i>
+                    </button>
+                </div>
+                <ul id="list-container"></ul>
+            </div>
+        </div>
+
+
+
+        <script src="script.js"></script>
+    </body>
+</html>
+
